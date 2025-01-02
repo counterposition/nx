@@ -16,10 +16,8 @@ If you don't already have a local plugin, use Nx to generate one:
 
 ```shell {% skipRescope=true %}
 nx add @nx/plugin
-nx g @nx/plugin:plugin tools/my-plugin
+nx generate @nx/plugin:plugin tools/my-plugin
 ```
-
-Note that `latest` should match the version of the `nx` plugins installed in your workspace.
 
 Use the Nx CLI to generate the initial files needed for your generator.
 
